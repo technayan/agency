@@ -1,0 +1,43 @@
+/*========== Imports ==========*/
+
+@import '_variables';
+@import '_mixins';
+
+/*========== Fonts ==========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/*========== Reset CSS ==========*/
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: $text-color;
+    font-family: $primary-font;
+    font-size: 1.6rem;
+    overflow-x: hidden !important;
+}
+
+a{
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    transition: all 0.3s ease-in-out;
+}

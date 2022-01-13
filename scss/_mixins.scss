@@ -1,0 +1,7 @@
+/*========== Media Query (Responsive) Mixin ==========*/
+
+@mixin mq ($w) {
+    @media (max-width: $w){
+        @content;
+    }
+}
