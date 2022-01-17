@@ -123,6 +123,8 @@ button {
 /*========== Navbar CSS Start ==========*/
 .navbar {
   border-bottom: 2px solid #ffffff43;
+  /*========== Hamburger Menu CSS Start ==========*/
+  /*========== Hamburger Menu CSS End ==========*/
 }
 
 .navbar .navbar-brand {
@@ -148,6 +150,95 @@ button {
 
 .navbar .nav-link:hover {
   color: #fba419 !important;
+}
+
+.navbar .search-item {
+  position: relative;
+}
+
+.navbar .search-box {
+  position: absolute;
+  top: 5.8rem;
+  right: 0;
+  padding: 1rem;
+  width: 30rem;
+  border: none;
+  outline: none;
+  opacity: 0;
+}
+
+.navbar .opacity {
+  opacity: 1;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  width: 4rem;
+  height: 4rem;
+}
+
+.navbar .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .navbar-toggler-icon {
+  background: #fff;
+  width: 3rem;
+  height: 0.5rem;
+  position: relative;
+  border-radius: 2px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .navbar-toggler-icon::before {
+  position: absolute;
+  content: '';
+  width: 4rem;
+  height: 0.5rem;
+  top: -1.5rem;
+  right: 0;
+  background: #fff;
+  border-radius: 2px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .navbar-toggler-icon::after {
+  position: absolute;
+  content: '';
+  width: 4rem;
+  height: 0.5rem;
+  bottom: -1.5rem;
+  right: 0;
+  background: #fff;
+  border-radius: 2px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .open {
+  background: transparent;
+}
+
+.navbar .open::before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 0;
+  opacity: 1;
+}
+
+.navbar .open::after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  bottom: 0;
+  opacity: 1;
 }
 
 /*========== Navbar CSS End ==========*/
