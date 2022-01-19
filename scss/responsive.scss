@@ -83,6 +83,9 @@
     /*===== Welcome Section Responsive CSS =====*/
     .welcome-section {
         padding: 5rem 0;
+        .section-desc {
+            font-size: 2rem;
+        }
         .welcome-img-wrapper {
             height: 50rem !important;
             margin-top: 4rem;

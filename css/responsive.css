@@ -78,6 +78,9 @@
   .welcome-section {
     padding: 5rem 0;
   }
+  .welcome-section .section-desc {
+    font-size: 2rem;
+  }
   .welcome-section .welcome-img-wrapper {
     height: 50rem !important;
     margin-top: 4rem;
