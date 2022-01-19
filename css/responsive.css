@@ -2,6 +2,7 @@
 /*========== Variables ==========*/
 /*===== XX-Large devices (Xtra large desktops, less than 1500px) =====*/
 @media (max-width: 1499.98px) {
+  /*===== Hero Section Responsive CSS =====*/
   .hero-section {
     height: 75rem;
   }
@@ -12,6 +13,7 @@
 
 /*===== X-Large devices (large desktops, less than 1400px) =====*/
 @media (max-width: 1399.98px) {
+  /*===== Hero Section Responsive CSS =====*/
   .hero-section {
     height: 70rem;
   }
@@ -19,6 +21,7 @@
 
 /*===== Large devices (desktops, less than 1200px) =====*/
 @media (max-width: 1199.98px) {
+  /*===== Reset Responsive CSS =====*/
   html {
     font-size: 50%;
   }
@@ -59,24 +62,41 @@
   .search-item {
     display: none;
   }
+  /*===== Hero Section Responsive CSS =====*/
+  .hero-section {
+    background-position: 80% center;
+  }
 }
 
 /*===== Small devices (landscape phones, less than 768px) =====*/
 @media (max-width: 767.98px) {
+  /*===== Reset Responsive CSS =====*/
   html {
     font-size: 40%;
+  }
+  /*===== Welcome Section Responsive CSS =====*/
+  .welcome-section {
+    padding: 5rem 0;
+  }
+  .welcome-section .welcome-img-wrapper {
+    height: 50rem !important;
+    margin-top: 4rem;
   }
 }
 
 /*===== X-Small devices (portrait phones, less than 576px) =====*/
 @media (max-width: 575.98px) {
-  .hero-section::after {
-    background-position: 80% center;
+  /*===== Hero Section Responsive CSS =====*/
+  .hero-text {
+    -webkit-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+            transform: translateY(30px);
   }
 }
 
 /*===== X-Small devices (portrait phones, less than 576px) =====*/
 @media (max-width: 329.98px) {
+  /*===== Hero Section Responsive CSS =====*/
   .hero-title {
     font-size: 5rem !important;
   }
