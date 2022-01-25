@@ -134,25 +134,16 @@
             border-radius: 35px;
             &:hover {
                 background: transparent;
+                color: $primary-color;
             }
         }
-
     }
 }
 /*========== Hero Section CSS End ==========*/
 
 /*========== Welcome Section CSS Start ==========*/
 .welcome-section {
-    padding: 9rem 0;
-    .section-title {
-        font-size: 5rem;
-        color: $primary-color;
-        font-weight: 900;
-        .black-title {
-            font-size: 6.5rem;
-            color: $title-color;
-        }
-    }
+    
     .quote {
         display: flex;
         align-items: start;
@@ -167,6 +158,8 @@
     .section-desc {
         font-size: 1.8rem;
         font-weight: 500;
+        line-height: 3.5rem;
+        word-spacing: 0.2em;
         color: $text-color;
         margin-bottom: 4.5rem;
     }
@@ -183,3 +176,30 @@
     }
 }
 /*========== Welcome Section CSS End ==========*/
+
+/*========== Great Services Section CSS Start ==========*/
+.great-services-section {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../assets/services-bg-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .great-service {
+        margin: 2rem 0;
+    }
+    .great-services-desc {
+        width: 90%;
+        margin-top: 3rem;
+        font-size: 2.4rem;
+    }
+    .service-icon {
+        width: 7.7rem;
+    }
+    .service-title {
+        font-size: 2.4rem;
+        color: $primary-color;
+    }
+    .service-desc {
+        font-weight: 300;
+    }
+}
+/*========== Great Services Section CSS End ==========*/

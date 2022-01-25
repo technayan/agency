@@ -26,6 +26,8 @@ body{
     font-family: $primary-font;
     font-size: 1.6rem;
     overflow-x: hidden !important;
+    word-spacing: 0.2em;
+
 }
 
 a{
@@ -55,4 +57,22 @@ button{
     background: transparent;
     color: $primary-color;
     border: 1px solid $primary-color;
+}
+
+section {
+    padding: 9rem 0;
+}
+
+.section-title {
+    font-size: 5rem;
+    color: $primary-color;
+    font-weight: 900;
+    .black-title {
+        font-size: 6.5rem;
+        color: $title-color;
+    }
+    .white-title {
+        font-size: 6.5rem;
+        color: $white-color;
+    }
 }

@@ -23,6 +23,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
   overflow-x: hidden !important;
+  word-spacing: 0.2em;
 }
 
 a {
@@ -56,6 +57,26 @@ button {
   background: transparent;
   color: #fba419;
   border: 1px solid #fba419;
+}
+
+section {
+  padding: 9rem 0;
+}
+
+.section-title {
+  font-size: 5rem;
+  color: #fba419;
+  font-weight: 900;
+}
+
+.section-title .black-title {
+  font-size: 6.5rem;
+  color: #161616;
+}
+
+.section-title .white-title {
+  font-size: 6.5rem;
+  color: #ffffff;
 }
 
 @-webkit-keyframes fadeInTop {
@@ -304,25 +325,11 @@ button {
 
 .hero-section .hero-text .hero-btn:hover {
   background: transparent;
+  color: #fba419;
 }
 
 /*========== Hero Section CSS End ==========*/
 /*========== Welcome Section CSS Start ==========*/
-.welcome-section {
-  padding: 9rem 0;
-}
-
-.welcome-section .section-title {
-  font-size: 5rem;
-  color: #fba419;
-  font-weight: 900;
-}
-
-.welcome-section .section-title .black-title {
-  font-size: 6.5rem;
-  color: #161616;
-}
-
 .welcome-section .quote {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -343,6 +350,8 @@ button {
 .welcome-section .section-desc {
   font-size: 1.8rem;
   font-weight: 500;
+  line-height: 3.5rem;
+  word-spacing: 0.2em;
   color: #252525;
   margin-bottom: 4.5rem;
 }
@@ -365,3 +374,37 @@ button {
 }
 
 /*========== Welcome Section CSS End ==========*/
+/*========== Great Services Section CSS Start ==========*/
+.great-services-section {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../assets/services-bg-img.png);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/services-bg-img.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/services-bg-img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.great-services-section .great-service {
+  margin: 2rem 0;
+}
+
+.great-services-section .great-services-desc {
+  width: 90%;
+  margin-top: 3rem;
+  font-size: 2.4rem;
+}
+
+.great-services-section .service-icon {
+  width: 7.7rem;
+}
+
+.great-services-section .service-title {
+  font-size: 2.4rem;
+  color: #fba419;
+}
+
+.great-services-section .service-desc {
+  font-weight: 300;
+}
+
+/*========== Great Services Section CSS End ==========*/
