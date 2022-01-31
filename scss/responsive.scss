@@ -32,53 +32,98 @@
 /*===== Medium devices (tablets, less than 992px) =====*/
 @media (max-width: 991.98px) {
 
+    /*===== Reset Responsive CSS =====*/
+    section {
+        padding: 5rem 0;
+    }
+
     /*===== Hamburger Menu Responsive CSS =====*/
-    #navbarNav{
-        padding-top: 8.2rem;
-        position: absolute;
-        top: 0;
-        left: 100%;
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        background: #000;
-        overflow-y: scroll;
-        transition: transform 1s ease;
-        display: block;
-        z-index: -1;
-        
-        .navbar-nav {
-            border-top: 2px solid #ffffff43;
+    .navbar {
+        .navbar-brand {
+            font-size: 3rem;
+            .hilighted-quote-sign {
+                width: 3.5rem;
+            }
+        }
+        #navbarNav{
+            padding-top: 8.2rem;
+            position: absolute;
+            top: 0;
+            left: 100%;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+            background: #000;
+            overflow-y: scroll;
+            transition: transform 1s ease;
+            display: block;
+            z-index: -1;
+            
+            .navbar-nav {
+                border-top: 2px solid #ffffff43;
+            }
+        }
+        .show-mobile-menu {
+            left: 0 !important;
+        }
+        .nav-link {
+            padding: 3rem 0;
+            margin-right: 0px !important;
+            font-size: 2rem !important;
+        }
+        .search-item {
+            display: none;
         }
     }
-    .show-mobile-menu {
-        left: 0 !important;
-    }
-    .nav-link {
-        padding: 3rem 0;
-        margin-right: 0px !important;
-        font-size: 2.5rem !important;
-    }
-    .search-item {
-        display: none;
-    }
+    
 
     /*===== Hero Section Responsive CSS =====*/
     .hero-section {
         background-position: 80% center;
+        .hero-btn {
+            padding: 1rem 2.5rem !important;
+        }
     }
-    
+
+    /*===== Welcome Section Responsive CSS =====*/
+    .welcome-img-wrapper {
+        height: 50rem !important;
+        margin-top: 5rem;
+    }
 }
 
 /*===== Small devices (landscape phones, less than 768px) =====*/
 @media (max-width: 767.98px) {
 
+    /*===== Reset Responsive CSS =====*/
+    .section-title,
+    .black-title,
+    .white-title {
+        font-size: 3.5rem !important;
+    }
+
+    /*===== Hero Section Responsive CSS =====*/
+    .hero-title {
+        font-size: 4rem !important;
+    }
+    .hero-desc {
+        font-size: 2rem !important;
+    }
+    .hero-btn {
+        font-size: 1.5rem !important;
+    }
 
     /*===== Welcome Section Responsive CSS =====*/
     .welcome-section {
-        padding: 5rem 0;
+        .quote {
+            font-size: 1.8rem;
+            .quote-sign {
+                width: 2.2rem;
+            }
+        }
         .section-desc {
-            font-size: 2.3rem;
+            font-size: 1.6rem;
+
         }
         .welcome-img-wrapper {
             height: 50rem !important;
@@ -89,6 +134,15 @@
 
 /*===== X-Small devices (portrait phones, less than 576px) =====*/
 @media (max-width: 575.98px) {
+
+    /*===== Navbar Responsive CSS =====*/
+    .navbar-toggler-icon {
+        height: 0.3rem !important;
+        &::before,
+        &::after {
+            height: 0.3rem !important;
+        }
+    }
     
     /*===== Hero Section Responsive CSS =====*/
     .hero-text {
@@ -100,9 +154,7 @@
 @media (max-width: 329.98px) {
 
     /*===== Hero Section Responsive CSS =====*/
-    .hero-title {
-        font-size: 5rem !important;
-    }
+    
 }
 
 
