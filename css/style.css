@@ -44,19 +44,19 @@ button {
 }
 
 .primary-btn {
-  font-size: 14px;
+  display: inline-block;
+  font-size: 15px;
   font-weight: 700;
-  padding: 12px 20px;
+  padding: 15px 25px;
   border-radius: 35px;
   background: #fba419;
   color: #ffffff;
-  border: 1px solid #fba419;
+  border: 2px solid #fba419;
 }
 
 .primary-btn:hover {
   background: transparent;
   color: #fba419;
-  border: 1px solid #fba419;
 }
 
 section {
@@ -77,6 +77,13 @@ section {
 .section-title .white-title {
   font-size: 6.5rem;
   color: #ffffff;
+}
+
+.section-desc {
+  font-size: 1.8rem;
+  font-weight: 500;
+  word-spacing: 0.2em;
+  color: #252525;
 }
 
 @-webkit-keyframes fadeInTop {
@@ -165,13 +172,13 @@ section {
 }
 
 .navbar .navbar-brand {
-  font-size: 4.3rem;
+  font-size: 4rem;
   font-weight: 900;
   color: #ffffff;
 }
 
 .navbar .navbar-brand .hilighted-quote-sign {
-  width: 5rem;
+  width: 4.5rem;
 }
 
 .navbar .navbar-brand:hover {
@@ -307,14 +314,15 @@ section {
 }
 
 .hero-section .hero-text .hero-desc {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 300;
   color: #fff;
 }
 
 .hero-section .hero-text .hero-btn {
-  padding: 1.5rem 3rem;
-  font-size: 2rem;
+  padding: 1.3rem 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
   background: #fba419;
   color: #fff;
   margin-top: 3rem;
@@ -338,6 +346,7 @@ section {
       -ms-flex-align: start;
           align-items: start;
   font-size: 2rem;
+  font-style: italic;
   color: #252525;
   font-weight: 300;
   margin: 6rem 0 4rem;
@@ -345,14 +354,6 @@ section {
 
 .welcome-section .quote .quote-sign {
   width: 3.7rem;
-}
-
-.welcome-section .section-desc {
-  font-size: 1.8rem;
-  font-weight: 500;
-  word-spacing: 0.2em;
-  color: #252525;
-  margin-bottom: 4.5rem;
 }
 
 .welcome-section .welcome-img-wrapper {
@@ -390,7 +391,7 @@ section {
 .great-services-section .great-services-desc {
   width: 90%;
   margin-top: 3rem;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .great-services-section .service-icon {
@@ -398,7 +399,8 @@ section {
 }
 
 .great-services-section .service-title {
-  font-size: 2.4rem;
+  font-size: 2rem;
+  font-weight: 700;
   color: #fba419;
 }
 
@@ -407,3 +409,141 @@ section {
 }
 
 /*========== Great Services Section CSS End ==========*/
+/*========== Special Features Section CSS Start ==========*/
+.special-features-section .marketing-img-wrapper {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../assets/creative-bg-img.png);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/creative-bg-img.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/creative-bg-img.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.special-features-section .support-img-wrapper {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../assets/creative-bg-img-2.png);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/creative-bg-img-2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/creative-bg-img-2.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.special-features-section .special-feature {
+  padding-top: 15rem;
+}
+
+.special-features-section .special-feature-icon-wrapper {
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.special-features-section .special-feature-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fba419;
+  margin: 1.5rem 2rem;
+}
+
+.special-features-section .special-feature-desc {
+  font-weight: 300;
+}
+
+.special-features-section .special-feature-btn {
+  margin: 3.6rem 0;
+}
+
+.special-features-section .service-list {
+  padding: 0;
+}
+
+.special-features-section .service-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.special-features-section .service-list li i {
+  color: #fba419;
+  margin-top: -0.8rem;
+}
+
+.special-features-section .service-list li p {
+  margin-left: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/*========== Special Features Section CSS End ==========*/
+/*========== Business Team Section CSS End ==========*/
+.business-team-section {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8))), url(../assets/team-bg-img.png);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8)), url(../assets/team-bg-img.png);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8)), url(../assets/team-bg-img.png);
+}
+
+.business-team-section .members-row {
+  margin-top: 50px;
+}
+
+.business-team-section .member .member-img {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+.business-team-section .member:hover .member-img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.business-team-section .member:hover .member-info {
+  bottom: 0;
+}
+
+.business-team-section .member .member-info {
+  background: #f8f8f8;
+  border-radius: 2rem 2rem 0 0;
+  bottom: -82px;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.business-team-section .member .member-info .member-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.business-team-section .member .member-info .member-social-link {
+  border: 1px solid #fba419;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fba419;
+}
+
+.business-team-section .member .member-info .member-social-link:hover {
+  background: #fba419;
+  color: #ffffff;
+}
+
+/*========== Business Team Section CSS End ==========*/
