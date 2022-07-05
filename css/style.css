@@ -485,11 +485,18 @@ section {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8)), url(../assets/team-bg-img.png);
 }
 
+.business-team-section .business-section-title {
+  font-size: 5rem;
+  color: #fba419;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
 .business-team-section .members-row {
   margin-top: 50px;
 }
 
-.business-team-section .member .member-img {
+.business-team-section .members-row .member .member-img {
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
@@ -498,17 +505,17 @@ section {
   width: 100%;
 }
 
-.business-team-section .member:hover .member-img {
+.business-team-section .members-row .member:hover .member-img {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.business-team-section .member:hover .member-info {
+.business-team-section .members-row .member:hover .member-info {
   bottom: 0;
 }
 
-.business-team-section .member .member-info {
+.business-team-section .members-row .member .member-info {
   background: #f8f8f8;
   border-radius: 2rem 2rem 0 0;
   bottom: -82px;
@@ -519,12 +526,12 @@ section {
   transition: 0.3s ease;
 }
 
-.business-team-section .member .member-info .member-name {
+.business-team-section .members-row .member .member-info .member-name {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.business-team-section .member .member-info .member-social-link {
+.business-team-section .members-row .member .member-info .member-social-link {
   border: 1px solid #fba419;
   width: 3.5rem;
   height: 3.5rem;
@@ -541,9 +548,23 @@ section {
   color: #fba419;
 }
 
-.business-team-section .member .member-info .member-social-link:hover {
+.business-team-section .members-row .member .member-info .member-social-link:hover {
   background: #fba419;
   color: #ffffff;
 }
 
 /*========== Business Team Section CSS End ==========*/
+/*========== Served Section CSS Start ==========*/
+.served-section .portfolio-wrapper .portfolio-img {
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.served-section .portfolio-wrapper:hover .portfolio-img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*========== Served Section CSS End ==========*/

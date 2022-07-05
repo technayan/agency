@@ -84,7 +84,8 @@
   /*===== Reset Responsive CSS =====*/
   .section-title,
   .black-title,
-  .white-title {
+  .white-title,
+  .business-section-title {
     font-size: 3.5rem !important;
   }
   /*===== Hero Section Responsive CSS =====*/
@@ -127,6 +128,13 @@
     -webkit-transform: translateY(30px);
         -ms-transform: translateY(30px);
             transform: translateY(30px);
+  }
+  /*===== Business Members Responsive CSS =====*/
+  .members-row {
+    margin-top: 10px !important;
+  }
+  .members-row .member {
+    margin: 0 15px;
   }
 }
 
