@@ -134,6 +134,9 @@
   .contact-section .contact-info {
     color: #fff;
   }
+  .contact-section .contact-info .contact-social-link {
+    color: #fff;
+  }
 }
 
 /*===== X-Small devices (portrait phones, less than 576px) =====*/

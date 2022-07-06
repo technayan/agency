@@ -380,5 +380,12 @@
     .contact-icon-wrapper {
         width: 4rem;
     }
+    .contact-social-link {
+        font-size: 30px;
+        color: $title-color;
+        &:hover {
+            color: $primary-color;
+        }
+    }
 }
 /*========== Contact Section CSS End ==========*/

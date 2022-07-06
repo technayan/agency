@@ -661,4 +661,13 @@ section {
   width: 4rem;
 }
 
+.contact-section .contact-social-link {
+  font-size: 30px;
+  color: #161616;
+}
+
+.contact-section .contact-social-link:hover {
+  color: #fba419;
+}
+
 /*========== Contact Section CSS End ==========*/
