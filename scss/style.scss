@@ -389,3 +389,14 @@
     }
 }
 /*========== Contact Section CSS End ==========*/
+
+/*========== Footer CSS Start ==========*/
+footer {
+    .footer-link {
+        color: #fff;
+        &:hover {
+        color: $primary-color
+    }
+    }
+}
+/*========== Footer CSS End ==========*/

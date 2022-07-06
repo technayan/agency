@@ -99,6 +99,10 @@
 @media (max-width: 767.98px) {
 
     /*===== Reset Responsive CSS =====*/
+    .container {
+        padding: 0 10px;
+    }
+
     .section-title,
     .black-title,
     .white-title,

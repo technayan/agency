@@ -671,3 +671,13 @@ section {
 }
 
 /*========== Contact Section CSS End ==========*/
+/*========== Footer CSS Start ==========*/
+footer .footer-link {
+  color: #fff;
+}
+
+footer .footer-link:hover {
+  color: #fba419;
+}
+
+/*========== Footer CSS End ==========*/
