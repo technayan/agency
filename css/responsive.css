@@ -126,6 +126,7 @@
   /*===== Contact Section Responsive CSS =====*/
   .contact-section::before {
     width: 100%;
+    background-size: cover;
   }
   .contact-section .contact-section-desc {
     width: 90%;
