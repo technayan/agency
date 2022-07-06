@@ -619,3 +619,46 @@ section {
 }
 
 /*========== Case Studies Section CSS End ==========*/
+/*========== Contact Section CSS Start ==========*/
+.contact-section {
+  position: relative;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../assets/contact-bg-img.png);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/contact-bg-img.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/contact-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: -1;
+}
+
+.contact-section .contact-section-desc {
+  width: 75%;
+}
+
+.contact-section .contact-brand {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #161616;
+}
+
+.contact-section .contact-brand .hilighted-quote-sign {
+  width: 4.5rem;
+}
+
+.contact-section .contact-brand:hover {
+  color: #fba419;
+}
+
+.contact-section .contact-icon-wrapper {
+  width: 4rem;
+}
+
+/*========== Contact Section CSS End ==========*/

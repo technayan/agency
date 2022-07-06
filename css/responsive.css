@@ -120,6 +120,20 @@
     height: 50rem !important;
     margin-top: 4rem;
   }
+  /*===== Contact Section Responsive CSS =====*/
+  .contact-section::before {
+    width: 100%;
+  }
+  .contact-section .contact-section-desc {
+    width: 90%;
+  }
+  .contact-section .contact-brand,
+  .contact-section .section-desc {
+    color: #fff;
+  }
+  .contact-section .contact-info {
+    color: #fff;
+  }
 }
 
 /*===== X-Small devices (portrait phones, less than 576px) =====*/

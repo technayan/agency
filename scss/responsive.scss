@@ -134,6 +134,26 @@
             margin-top: 4rem;
         }
     }
+
+    /*===== Contact Section Responsive CSS =====*/
+    .contact-section{
+
+        &::before {
+            width: 100%;
+            
+        }
+        .contact-section-desc {
+            width: 90%;
+        }
+        .contact-brand,
+        .section-desc {
+            color: #fff;
+        }
+        .contact-info {
+            color: #fff;
+        }
+    }   
+
 }
 
 /*===== X-Small devices (portrait phones, less than 576px) =====*/
