@@ -49,7 +49,7 @@
             }
         }
         #navbarNav{
-            padding-top: 8.2rem;
+            padding-top: 6.2rem;
             position: absolute;
             top: 0;
             left: 100%;
@@ -169,10 +169,31 @@
     /*===== Navbar Responsive CSS =====*/
     .navbar-toggler-icon {
         height: 0.3rem !important;
-        &::before,
+        width: 2.5rem !important;
+        &::before {
+            height: 0.3rem !important;
+            width: 3.5rem !important;
+            top: -1.2rem !important;
+        }
         &::after {
             height: 0.3rem !important;
+            width: 3.5rem !important;
+            bottom: -1.2rem !important;
         }
+    }
+
+    .open {
+        background: transparent;
+        &::before {
+            top: 0 !important;
+        }
+        &::after {
+            bottom: 0 !important;
+        }
+    }
+
+    .nav-link {
+        padding: 2rem 0 !important;
     }
     
     /*===== Hero Section Responsive CSS =====*/

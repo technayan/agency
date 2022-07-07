@@ -5,7 +5,6 @@
 
 /*========== Navbar CSS Start ==========*/
 .navbar {
-    border-bottom: 2px solid #ffffff43;
     .navbar-brand {
         font-size: 3rem;
         font-weight: 900;
@@ -389,6 +388,22 @@
     }
 }
 /*========== Contact Section CSS End ==========*/
+
+/*========== To Top Button CSS Start ==========*/
+#toTop {
+    width: 50px;
+    height: 50px;
+    background: $primary-color;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    &:hover {
+        background: #161616;
+    }
+}
+/*========== To Top Button CSS End ==========*/
 
 /*========== Footer CSS Start ==========*/
 footer {
