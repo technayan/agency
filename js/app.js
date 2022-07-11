@@ -22,6 +22,7 @@ let hamBtn = document.querySelector('.navbar-toggler');
 let openHamBtn = document.querySelector('.open-ham-btn');
 let menu = document.getElementById('navbarNav');
 let hamBtnIcon = document.querySelector('.navbar-toggler-icon');
+let navLink = document.querySelectorAll('.nav-link');
 
 
 
@@ -29,6 +30,15 @@ hamBtn.addEventListener('click', () => {
     hamBtnIcon.classList.toggle('open');
     menu.classList.toggle('show-mobile-menu');
     menu.style.transition = "all 0.5s ease";
+});
+
+
+navLink.forEach(link => {
+    link.addEventListener('click', () => {
+        hamBtnIcon.classList.remove('open');
+        menu.classList.remove('show-mobile-menu');
+        menu.style.transition = "all 0.5s ease";
+    });
 });
 
 
