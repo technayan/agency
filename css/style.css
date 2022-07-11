@@ -47,7 +47,7 @@ button {
   display: inline-block;
   font-size: 15px;
   font-weight: 700;
-  padding: 15px 25px;
+  padding: 10px 25px;
   border-radius: 35px;
   background: #fba419;
   color: #ffffff;
@@ -71,7 +71,7 @@ button {
   color: #fba419;
 }
 
-section {
+.section {
   padding: 9rem 0;
 }
 
@@ -680,6 +680,7 @@ section {
   border-radius: 50%;
   position: fixed;
   right: 20px;
+  z-index: 10;
 }
 
 #toTop:hover {

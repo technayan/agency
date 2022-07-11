@@ -399,6 +399,7 @@
     border-radius: 50%;
     position: fixed;
     right: 20px;
+    z-index: 10;
     &:hover {
         background: #161616;
     }

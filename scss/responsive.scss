@@ -36,7 +36,7 @@
 @media (max-width: 991.98px) {
 
     /*===== Reset Responsive CSS =====*/
-    section {
+    .section {
         padding: 5rem 0;
     }
 
@@ -92,6 +92,17 @@
     .welcome-img-wrapper {
         height: 50rem !important;
         margin-top: 5rem;
+    }
+
+    /*===== Special Features Section Responsive CSS =====*/
+    .special-features-section {
+        .service-list {
+            li {
+                i {
+                    font-size: 3rem;
+                }
+            }
+        }
     }
 }
 
