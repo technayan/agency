@@ -104,6 +104,11 @@
             }
         }
     }
+
+    /*===== Case Studies Section Responsive CSS =====*/
+    .case-studies-section {
+        margin: 3rem 0;
+    }
 }
 
 /*===== Small devices (landscape phones, less than 768px) =====*/
@@ -177,6 +182,18 @@
 /*===== X-Small devices (portrait phones, less than 576px) =====*/
 @media (max-width: 575.98px) {
 
+    /*===== Reset Responsive CSS =====*/
+    .section-title,
+    .black-title,
+    .white-title,
+    .custom-section-title {
+        font-size: 3rem !important;
+    }
+
+    .section-desc {
+        font-size: 1.6rem;
+    }
+
     /*===== Navbar Responsive CSS =====*/
     .navbar-toggler-icon {
         height: 0.3rem !important;
@@ -210,6 +227,9 @@
     /*===== Hero Section Responsive CSS =====*/
     .hero-text {
         transform: translateY(30px);
+        .hero-desc {
+            font-size: 1.6rem !important;
+        }
     }
 
     /*===== Business Members Responsive CSS =====*/
@@ -217,6 +237,13 @@
         margin-top: 10px !important;
         .member {
             margin: 0 15px;
+        }
+    }
+
+    /*===== Testimonials Section Responsive CSS =====*/
+    .testimonials-section {
+        .client-img {
+            width: 75% !important;
         }
     }
 }
