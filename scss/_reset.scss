@@ -19,15 +19,15 @@
 html{
     font-size: 65.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
     color: $text-color;
     font-family: $primary-font;
     font-size: 1.6rem;
-    overflow-x: hidden !important;
     word-spacing: 0.2em;
-
+    overflow: hidden;
 }
 
 a{
